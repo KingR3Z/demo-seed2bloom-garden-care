@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Nancy Goodden", rating: 5, text: "New Hayley has done great work in taming our garden. She's very knowledgeable about plants and how to look after them. She's reliable and flexible, and will come even when we are not at home. She doesn't need hot drinks but just battles through for t", date: "2 weeks ago" },
+    { name: "Mark Beavis", rating: 5, text: "Prompt and efficient two person garden team, all left clean and tidy, very happy to recommend. Thanks very much. ", date: "2 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
